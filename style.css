@@ -1,0 +1,71 @@
+:root {
+    --primary: #FFF8DC;
+    --secondary: #222222;
+    --anchor-blue: #6495ED;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    background-color: var(--secondary);
+    color: var(--primary);
+    text-align: center;
+}
+
+main {
+    max-width: 960px;
+    margin: auto;
+}
+
+#title {
+    padding: 2rem 0;
+}
+
+img {
+    display: block;
+    margin: auto;
+    border: ridge 0.7rem var(--primary);
+    max-width: 50%;
+}
+
+p {
+    padding: 5rem;
+}
+
+#tribute-info {
+    margin: 2rem auto;
+    padding: 3rem;
+    line-height: 2;
+    border-top: 0.1rem solid;
+    border-bottom: 0.1rem solid;
+}
+
+figcaption {
+    font-size: 1.6rem;
+}
+
+ul {
+    text-align: left;
+}
+
+a {
+    color: var(--anchor-blue);
+}
